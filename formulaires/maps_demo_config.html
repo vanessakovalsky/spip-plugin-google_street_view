@@ -1,0 +1,13 @@
+    <div class="formulaire_spip formulaire_maps_demo_config">
+     
+    <form action="#ENV{action}" method="post"><div>
+    	#ACTION_FORMULAIRE{#ENV{action}}
+    	<ul class="editer-groupe">
+    		<li class="editer editer_la_demo obligatoire">
+    			<label for="api_key">Clé d'API StreetView</label>
+    			<input type='text' name='api_key' id='api_key' value="#ENV{api_key}" class="text" />
+    		</li>
+    	</ul>
+    	<p class="boutons"><input type="submit" class="submit" value="<:pass_ok:>" /></p>
+    </div></form>
+    </div>
