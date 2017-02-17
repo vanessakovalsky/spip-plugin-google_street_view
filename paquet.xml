@@ -1,0 +1,13 @@
+<paquet
+    prefix="maps_demo"
+	categorie="divers"
+	version="1.0.0"
+	etat="dev"
+	compatibilite="[3.0.0;3.1.*]"
+>
+    <nom>Maps 2</nom>
+	<auteur>Vanessa Kovalsky</auteur>
+	<menu nom="maps_demo" titre="demo_maps:Maps" action="navigation" parametres="menu=maps_demo" />
+    <menu nom="maps" titre="Maps" parent="maps_demo" action="maps_demo" />
+   	<onglet nom="maps_config" titre="Configurer Maps" parent="maps" action="maps_demo" />
+</paquet>
