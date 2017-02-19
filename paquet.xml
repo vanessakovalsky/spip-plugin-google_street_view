@@ -7,6 +7,10 @@
 >
     <nom>Maps 2</nom>
 	<auteur>Vanessa Kovalsky</auteur>
+    <pipeline
+        nom="autoriser"
+        inclure="maps_autoriser.php" />
+
 	<menu nom="maps_demo" titre="demo_maps:Maps" action="navigation" parametres="menu=maps_demo" />
     <menu nom="maps" titre="Maps" parent="maps_demo" action="maps_demo" />
    	<onglet nom="maps_config" titre="Configurer Maps" parent="maps" action="maps_demo" />
